@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+section h1 {
+  margin: 1rem;
+  font-size: 1.8rem;
+}
+section form {
+  align-items: center;
+}
+section label {
+  margin: 0.5rem;
+  display: block;
+}
+section button {
+  width: 100px;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--light-green);
+  color: black;
+}
+section input {
+  width: 200px;
+  height: 2rem;
+  color: black;
+}
+section #output {
+  margin: 1rem;
+}
